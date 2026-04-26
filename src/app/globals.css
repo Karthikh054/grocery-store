@@ -9,3 +9,30 @@
   width: 96%;
   margin:auto;
 }
+
+.swiper-button-next,
+.swiper-button-prev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fff !important;
+  border-radius: 100% !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg{
+  color: #000 !important;
+  width:15px !important
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+  @apply !bg-primary
+}
+
+.swiper-button-next:hover svg,
+.swiper-button-prev:hover svg{
+  color: #fff !important;
+}
